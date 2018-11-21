@@ -1,0 +1,5 @@
+#!/bin/bash
+terraform workspace new test
+terraform init
+terraform apply -auto-approve -var region=us-west-2
+terraform output -json > test_conf.json

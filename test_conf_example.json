@@ -1,0 +1,12 @@
+{
+    "region": {
+        "sensitive": false,
+        "type": "string",
+        "value": "us-west-2"
+    },
+    "table_name": {
+        "sensitive": false,
+        "type": "string",
+        "value": "test_test_lambda_dynamo_helpers"
+    }
+}
