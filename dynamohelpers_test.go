@@ -15,7 +15,6 @@ func TestMain(m *testing.M) {
 	if err == nil {
 		var properties map[string]map[string]string
 		json.Unmarshal(f, &properties)
-		println(properties["region"]["value"])
 		os.Setenv(REGION, properties["region"]["value"])
 		table = properties["table_name"]["value"]
 	} else {
